@@ -97,12 +97,6 @@
     <Compile Include="VIEWS\PadroesSistemaForm.designer.cs">
       <DependentUpon>PadroesSistemaForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="VIEWS\SUB_FORMS\BALCAO\VendaBalcaoForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="VIEWS\SUB_FORMS\BALCAO\VendaBalcaoForm.designer.cs">
-      <DependentUpon>VendaBalcaoForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="VIEWS\SUB_FORMS\CLIENTE\AtualizarClienteForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,9 +163,6 @@
     <EmbeddedResource Include="VIEWS\PadroesSistemaForm.resx">
       <DependentUpon>PadroesSistemaForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="VIEWS\SUB_FORMS\BALCAO\VendaBalcaoForm.resx">
-      <DependentUpon>VendaBalcaoForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="VIEWS\SUB_FORMS\CLIENTE\AtualizarClienteForm.resx">
       <DependentUpon>AtualizarClienteForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -193,6 +184,7 @@
     <EmbeddedResource Include="VIEWS\SUB_FORMS\PRODUTO\SubCategoriaProdutoForm.resx">
       <DependentUpon>SubCategoriaProdutoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
