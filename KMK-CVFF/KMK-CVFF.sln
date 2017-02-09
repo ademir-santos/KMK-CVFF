@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMK-GUI", "KMK-GUI\KMK-GUI.csproj", "{486D470E-CC19-4E85-9DF6-5AB91108E102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMK-MODELO", "KMK-MODELO\KMK-MODELO.csproj", "{BF295728-EB0E-4EFF-B8C7-0EE5B10F2A3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMK-DAL", "KMK-DAL\KMK-DAL.csproj", "{A2BB35CF-B20B-48F1-8684-06136D84A897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KMK-BLL", "KMK-BLL\KMK-BLL.csproj", "{4D5DBF89-A7C2-457B-A678-E87A748D2CD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{486D470E-CC19-4E85-9DF6-5AB91108E102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486D470E-CC19-4E85-9DF6-5AB91108E102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486D470E-CC19-4E85-9DF6-5AB91108E102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486D470E-CC19-4E85-9DF6-5AB91108E102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF295728-EB0E-4EFF-B8C7-0EE5B10F2A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF295728-EB0E-4EFF-B8C7-0EE5B10F2A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF295728-EB0E-4EFF-B8C7-0EE5B10F2A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF295728-EB0E-4EFF-B8C7-0EE5B10F2A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BB35CF-B20B-48F1-8684-06136D84A897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BB35CF-B20B-48F1-8684-06136D84A897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BB35CF-B20B-48F1-8684-06136D84A897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BB35CF-B20B-48F1-8684-06136D84A897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D5DBF89-A7C2-457B-A678-E87A748D2CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D5DBF89-A7C2-457B-A678-E87A748D2CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D5DBF89-A7C2-457B-A678-E87A748D2CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D5DBF89-A7C2-457B-A678-E87A748D2CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
