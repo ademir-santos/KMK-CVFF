@@ -1,4 +1,4 @@
-﻿//using KMK_GUI.VIEW.SUB_FORMS.BALCAO;
+﻿//using KMK_GUI.VIEWS.SUB_FORMS.BALCAO;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

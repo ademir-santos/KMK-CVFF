@@ -68,16 +68,28 @@
     <Compile Include="PrincipalForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="PrincipalForm.designer.cs">
+      <DependentUpon>PrincipalForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VIEWS\BalcaoForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VIEWS\BalcaoForm.designer.cs">
+      <DependentUpon>BalcaoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEWS\DeliveryForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VIEWS\DeliveryForm.designer.cs">
+      <DependentUpon>DeliveryForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEWS\LoginForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\LoginForm.designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="VIEWS\PadroesSistemaForm.cs">
       <SubType>Form</SubType>
@@ -106,11 +118,20 @@
     <Compile Include="VIEWS\SUB_FORMS\FORM_PADRAO\IncluirProdutoModelo.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VIEWS\SUB_FORMS\FORM_PADRAO\IncluirProdutoModelo.designer.cs">
+      <DependentUpon>IncluirProdutoModelo.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEWS\SUB_FORMS\FORM_PADRAO\OpcaoModeloForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VIEWS\SUB_FORMS\FORM_PADRAO\OpcaoModeloForm.designer.cs">
+      <DependentUpon>OpcaoModeloForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="VIEWS\SUB_FORMS\FORM_PADRAO\VendaModeloForm.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWS\SUB_FORMS\FORM_PADRAO\VendaModeloForm.designer.cs">
+      <DependentUpon>VendaModeloForm.cs</DependentUpon>
     </Compile>
     <Compile Include="VIEWS\SUB_FORMS\FUNCIONARIO\AtualizarFuncionarioForm.cs">
       <SubType>Form</SubType>
@@ -124,6 +145,9 @@
     <Compile Include="VIEWS\SUB_FORMS\PRODUTO\SubCategoriaProdutoForm.designer.cs">
       <DependentUpon>SubCategoriaProdutoForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="PrincipalForm.resx">
+      <DependentUpon>PrincipalForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -133,6 +157,15 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="VIEWS\BalcaoForm.resx">
+      <DependentUpon>BalcaoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\DeliveryForm.resx">
+      <DependentUpon>DeliveryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VIEWS\PadroesSistemaForm.resx">
       <DependentUpon>PadroesSistemaForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +177,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VIEWS\SUB_FORMS\EMPRESA\AtualizarEmpresaForm.resx">
       <DependentUpon>AtualizarEmpresaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\SUB_FORMS\FORM_PADRAO\IncluirProdutoModelo.resx">
+      <DependentUpon>IncluirProdutoModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\SUB_FORMS\FORM_PADRAO\OpcaoModeloForm.resx">
+      <DependentUpon>OpcaoModeloForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWS\SUB_FORMS\FORM_PADRAO\VendaModeloForm.resx">
+      <DependentUpon>VendaModeloForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VIEWS\SUB_FORMS\FUNCIONARIO\AtualizarFuncionarioForm.resx">
       <DependentUpon>AtualizarFuncionarioForm.cs</DependentUpon>
