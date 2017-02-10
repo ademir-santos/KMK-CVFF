@@ -17,10 +17,6 @@ namespace KMK_GUI.VIEWS.SUB_FORMS.FORM_PADRAO
             InitializeComponent();
         }
 
-        private void btnVDMDFRMExcluir_Click(object sender, EventArgs e)
-        {
-            this.lstVDMDFRMProdutos.ClearSelected();
-        }
 
         private void btnVDMDFRMCancelar_Click(object sender, EventArgs e)
         {
@@ -38,10 +34,7 @@ namespace KMK_GUI.VIEWS.SUB_FORMS.FORM_PADRAO
 
         private void AlterarBotaoExcluir()
         {
-            if (this.lstVDMDFRMProdutos.SelectedValue != null)
-            {
-                this.btnVDMDFRMExcluir.Enabled = true;
-            }
+
         }
 
         private void AlterarBotoes() 

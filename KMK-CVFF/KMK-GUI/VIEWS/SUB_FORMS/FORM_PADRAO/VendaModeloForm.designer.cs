@@ -33,8 +33,8 @@
             this.btnVDMDFRMCancelar = new System.Windows.Forms.Button();
             this.btnVDMDFRMConcluir = new System.Windows.Forms.Button();
             this.btnVDMDFRMExcluir = new System.Windows.Forms.Button();
-            this.lstVDMDFRMProdutos = new System.Windows.Forms.ListBox();
             this.txtVDMDFRMProdutos = new System.Windows.Forms.TextBox();
+            this.lstVDMDFRMProdutos = new System.Windows.Forms.ListView();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,11 +42,11 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.Controls.Add(this.lstVDMDFRMProdutos);
             this.groupBox1.Controls.Add(this.panel2);
             this.groupBox1.Controls.Add(this.btnVDMDFRMCancelar);
             this.groupBox1.Controls.Add(this.btnVDMDFRMConcluir);
             this.groupBox1.Controls.Add(this.btnVDMDFRMExcluir);
-            this.groupBox1.Controls.Add(this.lstVDMDFRMProdutos);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(10, 52);
@@ -114,19 +114,6 @@
             this.btnVDMDFRMExcluir.TabIndex = 7;
             this.btnVDMDFRMExcluir.Text = "Excluir";
             this.btnVDMDFRMExcluir.UseVisualStyleBackColor = true;
-            this.btnVDMDFRMExcluir.Click += new System.EventHandler(this.btnVDMDFRMExcluir_Click);
-            // 
-            // lstVDMDFRMProdutos
-            // 
-            this.lstVDMDFRMProdutos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lstVDMDFRMProdutos.FormattingEnabled = true;
-            this.lstVDMDFRMProdutos.ItemHeight = 15;
-            this.lstVDMDFRMProdutos.Location = new System.Drawing.Point(6, 29);
-            this.lstVDMDFRMProdutos.Name = "lstVDMDFRMProdutos";
-            this.lstVDMDFRMProdutos.Size = new System.Drawing.Size(700, 424);
-            this.lstVDMDFRMProdutos.TabIndex = 0;
             // 
             // txtVDMDFRMProdutos
             // 
@@ -136,6 +123,14 @@
             this.txtVDMDFRMProdutos.Name = "txtVDMDFRMProdutos";
             this.txtVDMDFRMProdutos.Size = new System.Drawing.Size(98, 20);
             this.txtVDMDFRMProdutos.TabIndex = 4;
+            // 
+            // lstVDMDFRMProdutos
+            // 
+            this.lstVDMDFRMProdutos.Location = new System.Drawing.Point(6, 29);
+            this.lstVDMDFRMProdutos.Name = "lstVDMDFRMProdutos";
+            this.lstVDMDFRMProdutos.Size = new System.Drawing.Size(700, 422);
+            this.lstVDMDFRMProdutos.TabIndex = 15;
+            this.lstVDMDFRMProdutos.UseCompatibleStateImageBehavior = false;
             // 
             // VendaModeloForm
             // 
@@ -158,11 +153,11 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.ListBox lstVDMDFRMProdutos;
         private System.Windows.Forms.Button btnVDMDFRMConcluir;
         private System.Windows.Forms.Button btnVDMDFRMExcluir;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button btnVDMDFRMCancelar;
         private System.Windows.Forms.TextBox txtVDMDFRMProdutos;
+        private System.Windows.Forms.ListView lstVDMDFRMProdutos;
     }
 }
